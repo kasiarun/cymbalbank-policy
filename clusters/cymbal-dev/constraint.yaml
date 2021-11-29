@@ -1,4 +1,4 @@
-# Blocks the creation of Ingress and Service type=LoadBalancer resources 
+# Blocks the creation of Ingress and Service type=LoadBalancer resources OK
 apiVersion: constraints.gatekeeper.sh/v1beta1
 kind: K8sNoExternalServices
 metadata:
